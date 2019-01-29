@@ -1,0 +1,72 @@
+p {
+  font-size: 16px;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  /*  フォントの種類  */
+  font-family: -apple-system, BlinkMacSystemFont,
+               "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  
+  /*  フォントのサイズ  */
+  font-size: 16px;
+  
+  /*  フォントの色  */
+  color: #333;
+  
+  /* 文字間隔の調整の設定 */
+  letter-spacing: 1.5px;
+  
+  /* 行間の設定 */
+  line-height: 1.75;
+}
+
+img.ww {
+  width: 80%;
+}
+
+img.hh {
+  width: 100px;
+}
+
+.pimg {
+  text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+  p {
+    font-size: 15px;
+  }
+
+  body {
+    width: 90%;
+    /*  フォントの種類  */
+    font-family: -apple-system, BlinkMacSystemFont,
+    "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+
+    /*  フォントのサイズ  */
+    font-size: 16px;
+
+    /*  フォントの色  */
+    color: #333;
+
+    /* 文字間隔の調整の設定 */
+    letter-spacing: 1.5px;
+
+    /* 行間の設定 */
+    line-height: 1.75;
+  }
+
+  img.ww {
+    width: 100%;
+  }
+
+  img.hh {
+    width: 100px;
+  }
+  
+  .pimg {
+    text-align: center;
+  }  
+}
